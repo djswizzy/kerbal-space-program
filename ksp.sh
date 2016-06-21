@@ -95,7 +95,7 @@ if [ "${KSP_SERVER_CHEATS}" ]; then
 	sed -i "s/cheats,1/cheats,${KSP_SERVER_CHEATS}/" ${DMPDIR}/DMPServerSettings.txt
 fi
 if [ "${KSP_SERVER_HTTPSTATUS}" ]; then
-	sed -i "s/httpport,1/httpport,${KSP_SERVER_HTTPSTATUS}/" ${DMPDIR}/DMPServerSettings.txt
+	sed -i "s/httpport,0/httpport,${KSP_SERVER_HTTPSTATUS}/" ${DMPDIR}/DMPServerSettings.txt
 fi
 if [ "${KSP_SERVER_MAXPLAYERS}" ]; then
 	sed -i "s/maxplayers,20/maxplayers,${KSP_SERVER_MAXPLAYERS}/" ${DMPDIR}/DMPServerSettings.txt
