@@ -1,6 +1,6 @@
 FROM mono:latest
 
-MAINTAINER Jason Rivers <docker@jasonrivers.co.uk>
+MAINTAINER David Calvert <dcalvert2014@gmail.com>
 
 RUN apt-get update && apt-get install	\
 	wget				\
