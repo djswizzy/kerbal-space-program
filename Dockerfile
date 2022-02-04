@@ -15,8 +15,6 @@ ADD ksp.sh /usr/local/bin/ksp
 
 EXPOSE 6702
 
-USER ksp
-
 ENV SERVER_REMOTE_FILE	https://d-mp.org/builds/release/v0.3.8.2/DMPServer.zip
 
 RUN cd /data/ksp && wget ${SERVER_REMOTE_FILE} && unzip DMPServer.zip	
